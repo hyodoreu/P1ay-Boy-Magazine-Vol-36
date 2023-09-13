@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>P1ay Boy Magazine Vol 36: Delete Pink Box</title>
+    <style type="text/css">
+        body, h1, div, magazine { margin: 0; padding: 0; }
+        body { background-color:gray;}
+        .magazine { width:2100px; margin: 0 auto; padding: 20px; box-sizing: border-box;display: flex; flex-wrap:row;} 
+        .blue{height: 30px; width:2100px; background-color:blue; position: relative; box-shadow: black 3px 3px 10px inset;}
+        .box1 {background-color: gray; padding: 20px; text-align: center; width: 400px; margin-top:20px; box-shadow: black 3px 3px 10px inset; border-radius:50px; margin-left:20px;}
+        .image-grid {
+	    display: flex;
+	    flex-wrap: wrap;
+	    justify-content: center; /* 그리드 가로 중앙 정렬 */
+	    align-items: center; /* 그리드 세로 중앙 정렬 */
+		}
+
+		.image-box {
+	    width: calc(33.33% - 20px); /* 20px 마진을 뺀 너비 */
+	    margin-bottom: -2.6px; margin-left: 2px; /* 이미지 박스 간의 간격은 여기서 설정 */
+	    box-sizing: border-box;
+	    text-align: center; /* 이미지 가운데 정렬을 위한 설정 */
+		}
+        .image-box img {width: 100%;}
+        .box2 {background-color: gray; padding: 20px; text-align: center; width: 400px; margin-top:20px; box-shadow: black 3px 3px 10px inset; border-radius:50px; margin-left: 80px;}
+        .box3 {background-color: gray; padding: 20px; text-align: center; width: 400px; margin-top:20px; box-shadow: black 3px 3px 10px inset; border-radius:50px; margin-left: 80px;}
+        .box4 {background-color: gray; padding: 20px; text-align: center; width: 400px; margin-top:20px; box-shadow: black 3px 3px 10px inset; border-radius:50px; margin-left: 80px; position: absolute; top:50px; right: -90px;}
+    </style>
+</head>
+<body style="width:1950px; position:relative;">
+	<div class="blue">
+    	<img src="logo.png" style="width:9%; position:fixed; top:10px;left: 10px;">
+    </div>
+    <section class="magazine">
+    	
+        <div class="box1">
+            <div class="image-grid">
+                <div class="image-box">
+                    <img id="legom11" src="1_01.png">
+                </div>
+                <div class="image-box">
+                    <img id="legom12" src="1_02.gif">
+                </div>
+                <div class="image-box">
+                    <img id="legom13" src="1_03.gif">
+                </div>
+                <div class="image-box">
+                    <img id="legom14" src="1_04.gif">
+                </div>
+                <div class="image-box">
+                    <img id="legom15" src="1_05.gif">
+                </div>
+                <div class="image-box">
+                    <img id="legom16" src="1_06.gif">
+                </div>
+                <div class="image-box">
+                    <img id="legom17" src="1_07.gif">
+                </div>
+                <div class="image-box">
+                    <img id="legom18" src="1_08.gif">
+                </div>
+                <div class="image-box">
+                    <img id="legom19" src="1_09.gif">
+                </div>
+            </div>
+        </div>
+        <div class="box2">
+        	<div class="image-grid">
+                <div class="image-box">
+                    <img id="legog11" src="2_01.png">
+                </div>
+                <div class="image-box">
+                    <img id="legog12" src="2_02.gif">
+                </div>
+                <div class="image-box">
+                    <img id="legog13" src="2_03.gif">
+                </div>
+                <div class="image-box">
+                    <img id="legog14" src="2_04.gif">
+                </div>
+                <div class="image-box">
+                    <img id="legog15" src="2_05.gif">
+                </div>
+                <div class="image-box">
+                    <img id="legog16" src="2_06.gif">
+                </div>
+                <div class="image-box">
+                    <img id="legog17" src="2_07.gif">
+                </div>
+                <div class="image-box">
+                    <img id="legog18" src="2_08.gif">
+                </div>
+                <div class="image-box">
+                    <img id="legog19" src="2_09.gif">
+                </div>
+            </div>
+        </div>
+        <div class="box3">
+        	<div class="image-grid">
+                <div class="image-box">
+                    <img id="legom21" src="3_01.png">
+                </div>
+                <div class="image-box">
+                    <img id="legom22" src="3_02.gif">
+                </div>
+                <div class="image-box">
+                    <img id="legom23" src="3_03.gif">
+                </div>
+                <div class="image-box">
+                    <img id="legom24" src="3_04.gif">
+                </div>
+                <div class="image-box">
+                    <img id="legom25" src="3_05.gif">
+                </div>
+                <div class="image-box">
+                    <img id="legom26" src="3_06.gif">
+                </div>
+                <div class="image-box">
+                    <img id="legom27" src="3_07.gif">
+                </div>
+                <div class="image-box">
+                    <img id="legom28" src="3_08.gif">
+                </div>
+                <div class="image-box">
+                    <img id="legom29" src="3_09.gif">
+                </div>
+            </div>
+           <div class="box4">
+        	<div class="image-grid">
+                <div class="image-box">
+                    <img id="legog21" src="4_01.png">
+                </div>
+                <div class="image-box">
+                    <img id="legog22" src="4_02.gif">
+                </div>
+                <div class="image-box">
+                    <img id="legog23" src="4_03.gif">
+                </div>
+                <div class="image-box">
+                    <img id="legog24" src="4_04.gif">
+                </div>
+                <div class="image-box">
+                    <img id="legog25" src="4_05.gif">
+                </div>
+                <div class="image-box">
+                    <img id="legog26" src="4_06.gif">
+                </div>
+                <div class="image-box">
+                    <img id="legog27" src="4_07.gif">
+                </div>
+                <div class="image-box">
+                    <img id="legog28" src="4_08.gif">
+                </div>
+                <div class="image-box">
+                    <img id="legog29" src="4_09.gif">
+                </div>
+            </div>
+        
+    </section>
+    <script type="text/javascript">
+    	//레고 첫번째//
+        var legom11 = document.getElementById("legom11");
+
+        legom11.onclick = function() {
+            legom11.src = "change1_01.png"; 
+            var box1 = document.querySelector(".box1");
+            box1.style.backgroundColor = "#ff0048"; 
+        }
+        var legom12 = document.getElementById("legom12");
+
+        legom12.onclick = function() {
+            legom12.src = "change1_02.gif"; 
+            var box1 = document.querySelector(".box1");
+            box1.style.backgroundColor = "yellow"; 
+        }
+        var legom13 = document.getElementById("legom13");
+
+        legom13.onclick = function() {
+            legom13.src = "change1_03.gif"; 
+            var box1 = document.querySelector(".box1");
+            box1.style.backgroundColor = "aqua"; 
+        }
+        var legom14 = document.getElementById("legom14");
+
+        legom14.onclick = function() {
+            legom14.src = "change1_04.gif"; 
+            var box1 = document.querySelector(".box1");
+            box1.style.backgroundColor = "#7FFF00"; 
+        }
+        var legom15 = document.getElementById("legom15");
+
+        legom15.onclick = function() {
+            legom15.src = "change1_05.gif"; 
+            var box1 = document.querySelector(".box1");
+            box1.style.backgroundColor = "#FFEBCD"; 
+        }
+        var legom16 = document.getElementById("legom16");
+
+        legom16.onclick = function() {
+            legom16.src = "change1_06.gif"; 
+            var box1 = document.querySelector(".box1");
+            box1.style.backgroundColor = "blue"; 
+        }
+        var legom17 = document.getElementById("legom17");
+
+        legom17.onclick = function() {
+            legom17.src = "change1_07.gif"; 
+            var box1 = document.querySelector(".box1");
+            box1.style.backgroundColor = "#FF1493"; 
+        }
+        var legom18 = document.getElementById("legom18");
+
+        legom18.onclick = function() {
+            legom18.src = "change1_08.png"; 
+            var box1 = document.querySelector(".box1");
+            box1.style.backgroundColor = "#FF4500"; 
+        }
+        var legom19 = document.getElementById("legom19");
+
+        legom19.onclick = function() {
+            legom19.src = "change1_09.gif"; 
+            var box1 = document.querySelector(".box1");
+            box1.style.backgroundColor = "#FF00FF"; 
+        }
+
+
+
+        //레고 두번째//
+        var legog11 = document.getElementById("legog11");
+
+        legog11.onclick = function() {
+            legog11.src = "change2_01.png"; 
+            var box2 = document.querySelector(".box2");
+            box2.style.backgroundColor = "#FF00FF"; 
+        }
+        var legog12 = document.getElementById("legog12");
+
+        legog12.onclick = function() {
+            legog12.src = "change2_02.gif"; 
+            var box2 = document.querySelector(".box2");
+            box2.style.backgroundColor = "#ff0048"; 
+        }
+        var legog13 = document.getElementById("legog13");
+
+        legog13.onclick = function() {
+            legog13.src = "change2_03.gif"; 
+            var box2 = document.querySelector(".box2");
+            box2.style.backgroundColor = "#FFEBCD"; 
+        }
+        var legog14 = document.getElementById("legog14");
+
+        legog14.onclick = function() {
+            legog14.src = "change2_04.gif"; 
+            var box2 = document.querySelector(".box2");
+            box2.style.backgroundColor = "blue"; 
+        }
+        var legog15 = document.getElementById("legog15");
+
+        legog15.onclick = function() {
+            legog15.src = "change2_05.png"; 
+            var box2 = document.querySelector(".box2");
+            box2.style.backgroundColor = "#FF4500"; 
+        }
+        var legog16 = document.getElementById("legog16");
+
+        legog16.onclick = function() {
+            legog16.src = "change2_06.gif"; 
+            var box2 = document.querySelector(".box2");
+            box2.style.backgroundColor = "yellow"; 
+        }
+        var legog17 = document.getElementById("legog17");
+
+        legog17.onclick = function() {
+            legog17.src = "change2_07.gif"; 
+            var box2 = document.querySelector(".box2");
+            box2.style.backgroundColor = "#FF0000"; 
+        }
+        var legog18 = document.getElementById("legog18");
+
+        legog18.onclick = function() {
+            legog18.src = "change2_08.png"; 
+            var box2 = document.querySelector(".box2");
+            box2.style.backgroundColor = "aqua"; 
+        }
+        var legog19 = document.getElementById("legog19");
+
+        legog19.onclick = function() {
+            legog19.src = "change2_09.gif"; 
+            var box2 = document.querySelector(".box2");
+            box2.style.backgroundColor = "#FF1493"; 
+        }
+
+        //레고 세번째//
+        var legom21 = document.getElementById("legom21");
+
+        legom21.onclick = function() {
+            legom21.src = "change3_01.png"; 
+            var box3 = document.querySelector(".box3");
+            box3.style.backgroundColor = "yellow"; 
+        }
+        var legom22 = document.getElementById("legom22");
+
+        legom22.onclick = function() {
+            legom22.src = "change3_02.gif"; 
+            var box3 = document.querySelector(".box3");
+            box3.style.backgroundColor = "#FF00FF"; 
+        }
+        var legom23 = document.getElementById("legom23");
+
+        legom23.onclick = function() {
+            legom23.src = "change3_03.gif"; 
+            var box3 = document.querySelector(".box3");
+            box3.style.backgroundColor = "blue"; 
+        }
+        var legom24 = document.getElementById("legom24");
+
+        legom24.onclick = function() {
+            legom24.src = "change3_04.gif"; 
+            var box3 = document.querySelector(".box3");
+            box3.style.backgroundColor = "#FF1493"; 
+        }
+        var legom25 = document.getElementById("legom25");
+
+        legom25.onclick = function() {
+            legom25.src = "change3_05.gif"; 
+            var box3 = document.querySelector(".box3");
+            box3.style.backgroundColor = "aqua"; 
+        }
+        var legom26 = document.getElementById("legom26");
+
+        legom26.onclick = function() {
+            legom26.src = "change3_06.gif"; 
+            var box3 = document.querySelector(".box3");
+            box3.style.backgroundColor = "#ff0048"; 
+        }
+        var legom27 = document.getElementById("legom27");
+
+        legom27.onclick = function() {
+            legom27.src = "change3_07.gif"; 
+            var box3 = document.querySelector(".box3");
+            box3.style.backgroundColor = "#7FFF00"; 
+        }
+        var legom28 = document.getElementById("legom28");
+
+        legom28.onclick = function() {
+            legom28.src = "change3_08.png"; 
+            var box3 = document.querySelector(".box3");
+            box3.style.backgroundColor = "#FFEBCD"; 
+        }
+        var legom29 = document.getElementById("legom29");
+
+        legom29.onclick = function() {
+            legom29.src = "change3_09.gif"; 
+            var box3 = document.querySelector(".box3");
+            box3.style.backgroundColor = "#FF4500"; 
+        }
+
+        //레고 네번째//
+        var legog21 = document.getElementById("legog21");
+
+        legog21.onclick = function() {
+            legog21.src = "change4_01.png"; 
+            var box4 = document.querySelector(".box4");
+            box4.style.backgroundColor = "aqua"; 
+        }
+        var legog22 = document.getElementById("legog22");
+
+        legog22.onclick = function() {
+            legog22.src = "change4_02.gif"; 
+            var box4 = document.querySelector(".box4");
+            box4.style.backgroundColor = "blue"; 
+        }
+        var legog23 = document.getElementById("legog23");
+
+        legog23.onclick = function() {
+            legog23.src = "change4_03.gif"; 
+            var box4 = document.querySelector(".box4");
+            box4.style.backgroundColor = "#FF4500"; 
+        }
+        var legog24 = document.getElementById("legog24");
+
+        legog24.onclick = function() {
+            legog24.src = "change4_04.gif"; 
+            var box4 = document.querySelector(".box4");
+            box4.style.backgroundColor = "yellow"; 
+        }
+        var legog25 = document.getElementById("legog25");
+
+        legog25.onclick = function() {
+            legog25.src = "change4_05.png"; 
+            var box4 = document.querySelector(".box4");
+            box4.style.backgroundColor = "#FF1493"; 
+        }
+        var legog26 = document.getElementById("legog26");
+
+        legog26.onclick = function() {
+            legog26.src = "change4_06.gif"; 
+            var box4 = document.querySelector(".box4");
+            box4.style.backgroundColor = "#7FFF00"; 
+        }
+        var legog27 = document.getElementById("legog27");
+
+        legog27.onclick = function() {
+            legog27.src = "change4_07.gif"; 
+            var box4 = document.querySelector(".box4");
+            box4.style.backgroundColor = "#FF00FF"; 
+        }
+        var legog28 = document.getElementById("legog28");
+
+        legog28.onclick = function() {
+            legog28.src = "change4_08.png"; 
+            var box4 = document.querySelector(".box4");
+            box4.style.backgroundColor = "#FFEBCD"; 
+        }
+        var legog29 = document.getElementById("legog29");
+
+        legog29.onclick = function() {
+            legog29.src = "change4_09.gif"; 
+            var box4 = document.querySelector(".box4");
+            box4.style.backgroundColor = "#ff0048"; 
+        }
+
+    </script>
+</body>
+</html>
